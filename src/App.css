@@ -1,0 +1,89 @@
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_title {
+    font: bold 35px "Arial Black";
+}
+
+.button_update, .button_create {
+    margin-left: 10px;
+    width: 35px;
+    height: 35px;
+    border: solid 1px black;
+    border-radius: 50%;
+}
+
+.board {
+    display: flex;
+    justify-content: center;
+}
+
+.tasks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    width: 80%;
+}
+
+.task {
+    position: relative;
+    width: 30%;
+    height: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: solid 1px black;
+    border-radius: 5px;
+}
+
+.button_delete {
+    position: absolute;
+
+    top: -20px;
+    right: -15px;
+
+    margin-left: 10px;
+    width: 35px;
+    height: 35px;
+    border: solid 1px black;
+    border-radius: 50%;
+
+    color: red;
+    font: bolder 18px "Arial Black";
+    background-color: #ffffff;
+}
+
+
+.footer {
+    width: 30%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer_title {
+    font: bold 20px "Arial Black";
+}
+
+.notes_input {
+    width: 100%;
+    height: 80px;
+
+    font: inherit 15px "Arial Black";
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.button_create {
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+}
